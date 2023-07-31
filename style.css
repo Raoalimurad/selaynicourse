@@ -1,0 +1,74 @@
+body{
+    background-image: url("IMAGES/back.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vh;
+    height: 200vh;
+}
+.first{
+ 
+    margin-top: -10px;
+    text-align: center;
+    margin-left: 340px;
+
+
+}
+.first img{
+    height: 250px;
+    margin-top: -5px;
+}
+.first h1{
+    font-size: 50px;
+    margin-top: 3px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 6px skyblue;
+}
+table{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 65px;
+    padding: 20px;
+   border-spacing: 20px;
+}
+td{
+    padding-top: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: 8px solid yellow;
+} 
+td img{
+    width:272px;
+     height:185px;
+}
+td button{
+    margin-top: 20px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 0, 0, 0.655);
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+td button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+td button a:hover{
+    color: white;
+}
+td button:hover{
+    background-color: red;
+    border: 3px solid black;
+    color: white;
+    
+}
